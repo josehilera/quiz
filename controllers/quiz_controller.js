@@ -10,5 +10,11 @@ exports.answer = function(req, res) {
    } else {
       res.render('quizes/answer', {respuesta: 'Incorrecto'});
    }
-   
 };
+   
+   // GET /author
+exports.author = function(req, res) {
+   res.render('author');
+};
+
+   
